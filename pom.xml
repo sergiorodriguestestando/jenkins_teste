@@ -147,7 +147,10 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18</version>
 				<configuration>
-					<skip>true</skip>
+					<forkCount>1</forkCount>
+					<includes>
+					<include>net.thucydides.showcase.cucumber.AdmissaoTeste.java</include>
+					</includes>
 				</configuration>
 			</plugin>
 			<plugin>
