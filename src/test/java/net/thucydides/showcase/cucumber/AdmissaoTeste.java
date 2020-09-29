@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/admissao/RealizarLogin.feature", 
+@CucumberOptions(features = "src/test/resources/features/admissao/RealizarAdmissao.feature", 
 plugin= {"pretty","html:target/site","json:target/site/cucumber.json"},
 monochrome = true, 
 dryRun = false,
