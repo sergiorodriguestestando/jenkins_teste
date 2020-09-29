@@ -7,7 +7,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/admissao/RealizarLogin.feature", 
-plugin= {"pretty","html:target/site"},
+plugin= {"pretty","html:target/site","json:target/site/cucumber.json"},
 monochrome = true, 
 dryRun = false,
 glue = "net.thucydides.showcase.cucumber.steps"
