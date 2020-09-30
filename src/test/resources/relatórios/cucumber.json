@@ -1,0 +1,229 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 37,
+        "name": "Realizar Admissão de um Colaborador",
+        "description": "",
+        "id": "realizar-admissão-de-um-nono-colocaborador;realizar-admissão-de-um-colaborador;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 16114276699,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que usuário possa acessar a tela de login do sistema",
+            "match": {
+              "location": "RealizarAdmissaoSteps.que_usuário_possa_acessar_a_tela_de_login_do_sistema()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5108803900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "informar um usuário\"integration.hcm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "integration.hcm",
+                  "offset": 20
+                }
+              ],
+              "location": "RealizarAdmissaoSteps.informarUmUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2438407100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "inserir uma senha \"Int2017@mdb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Int2017@mdb",
+                  "offset": 19
+                }
+              ],
+              "location": "RealizarAdmissaoSteps.inserir_uma_senha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 10347961300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "selecionar o botão entrar",
+            "match": {
+              "location": "RealizarAdmissaoSteps.selecionar_o_botão_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 14460553800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o Menu Principal é exibido",
+            "match": {
+              "location": "RealizarAdmissaoSteps.oMenuPrincipalÉExibido()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 7174926800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "selecionar Meus Grupos de Cliente",
+            "match": {
+              "location": "RealizarAdmissaoSteps.selecionar_Meus_Grupos_de_Cliente()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 6753652201,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "selecionar o menu Incluir Colaborador",
+            "match": {
+              "location": "RealizarAdmissaoSteps.selecionarOMenuIncluirColaborador()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 7094924500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "selecionar botao continuar",
+            "match": {
+              "location": "RealizarAdmissaoSteps.selecionar_botao_continuar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 14515664900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "inserir um empregador",
+            "match": {
+              "location": "RealizarAdmissaoSteps.inserirUmEmpregador()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8280731600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "selecionar Botao Proxima Continuar",
+            "match": {
+              "location": "RealizarAdmissaoSteps.selecionar_Botao_Proxima_Continuar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 9485026799,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "digitar o primeiro nome",
+            "match": {
+              "location": "RealizarAdmissaoSteps.digitarOPrimeiroNome()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5284065399,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "digitar sobre Nome",
+            "match": {
+              "location": "RealizarAdmissaoSteps.digitarSobreNome()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 15189531000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "selecionar sexo",
+            "match": {
+              "location": "RealizarAdmissaoSteps.selecionarSexo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 9002149699,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "inserir Data Nascimento",
+            "match": {
+              "location": "RealizarAdmissaoSteps.inserirDataNascimento()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8007759900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "selecionar Botao Proxima Continuar",
+            "match": {
+              "location": "RealizarAdmissaoSteps.selecionar_Botao_Proxima_Continuar()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar Admissão de um nono colocaborador",
+    "description": "Como usuário do perfil Gestor\nEu quero informar os dados obrigatórios\nE cadastrar um novo colaborador",
+    "id": "realizar-admissão-de-um-nono-colocaborador",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/admissao/RealizarAdmissao.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
