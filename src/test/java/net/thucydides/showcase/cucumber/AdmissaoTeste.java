@@ -1,5 +1,5 @@
 package net.thucydides.showcase.cucumber;
-//teste
+
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
@@ -16,6 +16,6 @@ glue = "net.thucydides.showcase.cucumber.steps"
 
 public class AdmissaoTeste {
 
-}
+}	
 
 
