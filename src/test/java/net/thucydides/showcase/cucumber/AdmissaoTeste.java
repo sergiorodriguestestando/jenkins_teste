@@ -7,7 +7,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/admissao/RealizarAdmissao.feature", 
-plugin= {"pretty","html:target/site","json:target/site/cucumber.json"},
+plugin= {"pretty","html:target/site","json:src/test/resources/relatórios/cucumber.json"},
 monochrome = true, 
 dryRun = false,
 glue = "net.thucydides.showcase.cucumber.steps"
@@ -15,7 +15,7 @@ glue = "net.thucydides.showcase.cucumber.steps"
 )
 
 public class AdmissaoTeste {
-
+//teste
 }	
 
 
