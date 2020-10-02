@@ -34,7 +34,7 @@ E selecionar Botao Proxima Continuar
 
 Exemplos:
 | Usuario           | Senha       	|
-| "integration.hcm" | "Int2017@mdb" |
+| "integration.hcm1" | "Int2017@mdb" |
 
 
 
